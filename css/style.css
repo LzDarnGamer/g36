@@ -1,4 +1,4 @@
---------------------------------------------------------------------- File Name: style.css ---------------------------------------------------------------------*/
+/*--------------------------------------------------------------------- File Name: style.css ---------------------------------------------------------------------*/
 /*--------------------------------------------------------------------- import Files ---------------------------------------------------------------------*/
 
 @import url(animate.min.css);
@@ -14,7 +14,6 @@
 @import url(nice-select.css);
 
 /*--------------------------------------------------------------------- skeleton ---------------------------------------------------------------------*/
-
 * {
     box-sizing: border-box !important;
     transition: ease all 0.5s;
@@ -956,5 +955,17 @@ input.mail_bt::placeholder {
     margin-top: 90px;
 }
 
-
+#totalbutton {
+    background-color: rgb(50, 61, 57);
+    color: rgb(255, 255, 255);
+    border: 3px solid #000000; /* Green */
+    font-size: 40px;
+    border-radius: 12px;
+    padding: 0 5 0 5;
+  }
+  
+  #totalbutton:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }
 /* copyright section end */
